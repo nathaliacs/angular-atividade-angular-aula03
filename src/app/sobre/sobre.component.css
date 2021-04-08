@@ -1,0 +1,43 @@
+img {
+  padding: 0 auto;
+  border-radius: 100%;
+  max-width: 80px;
+  height: auto;
+}
+
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  width: 350px;
+  height: 100%;
+  margin: 0 auto;
+  margin-bottom: 3em;
+}
+.flex-container > div {
+  color: black;
+  margin: 15px;
+  text-align: center;
+  font-size: 30px;
+}
+#follow {
+  flex-grow: 7;
+  align-items: initial;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+#img {
+  flex-grow: 3;
+}
+
+#follow > a {
+  width: 90px;
+  height: 30px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+abbr{
+   text-decoration: none;
+}
